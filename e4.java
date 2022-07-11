@@ -13,5 +13,7 @@ public class e4 {
             else System.out.println("Round "+i+": Tails");
         }
         System.out.println("Heads: "+count+", Tails: "+(3-count));
+        if(count>=2) System.out.println("You won");
+        else System.out.println("You lost");
     }
 }
