@@ -1,6 +1,11 @@
 import java.util.Random;
+import java.util.Scanner;
 public class e4 {
     public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Who are you?");
+        String name=sc.nextLine();
+        System.out.println("Hello, "+name+"!");
         System.out.println("Tossing a coin...");
         Random rand=new Random();
         int count=0,coin;
