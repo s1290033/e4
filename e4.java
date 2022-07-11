@@ -9,7 +9,7 @@ public class e4 {
         System.out.println("Tossing a coin...");
         Random rand=new Random();
         int count=0,coin;
-        for(int i=0;i<3;i++){
+        for(int i=1;i<4;i++){
             coin=rand.nextInt(2);
             if(coin==0){
                 System.out.println("Round "+i+": Heads");
@@ -18,7 +18,7 @@ public class e4 {
             else System.out.println("Round "+i+": Tails");
         }
         System.out.println("Heads: "+count+", Tails: "+(3-count));
-        if(count>=2) System.out.println("You won");
-        else System.out.println("You lost");
+        if(count>=2) System.out.println(name+" won");
+        else System.out.println(name+" lost");
     }
 }
